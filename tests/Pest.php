@@ -1,0 +1,5 @@
+<?php
+
+use Geolax\Geolocate\Tests\TestCase;
+
+uses(TestCase::class)->in(__DIR__);
