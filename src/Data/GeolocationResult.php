@@ -49,21 +49,21 @@ readonly class GeolocationResult
     public function toArray(): array
     {
         return [
-            'ip_version'     => $this->ipVersion,
-            'ip_address'     => $this->ipAddress,
-            'latitude'       => $this->latitude,
-            'longitude'      => $this->longitude,
-            'country_name'   => $this->countryName,
-            'country_code'   => $this->countryCode,
-            'region_name'    => $this->regionName,
-            'region_code'    => $this->regionCode,
-            'city_name'      => $this->cityName,
-            'zip_code'       => $this->zipCode,
-            'timezone'       => $this->timezone,
-            'continent'      => $this->continent,
+            'ip_version' => $this->ipVersion,
+            'ip_address' => $this->ipAddress,
+            'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
+            'country_name' => $this->countryName,
+            'country_code' => $this->countryCode,
+            'region_name' => $this->regionName,
+            'region_code' => $this->regionCode,
+            'city_name' => $this->cityName,
+            'zip_code' => $this->zipCode,
+            'timezone' => $this->timezone,
+            'continent' => $this->continent,
             'continent_code' => $this->continentCode,
-            'currency'       => $this->currency,
-            'driver'         => $this->driver,
+            'currency' => $this->currency,
+            'driver' => $this->driver,
         ];
     }
 }
